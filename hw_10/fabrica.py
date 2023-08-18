@@ -48,4 +48,6 @@ class Fabric(Fish, Birds):
     
     def getParams(self):
         return self.params
-    
+
+fi2 = Fish("water", "Zuza", "fish")
+print(fi2.swim())
